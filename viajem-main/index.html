@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agência de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Caminhos do Mundo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Descubra os Melhores Destinos com a Nossa Agência</h2>
+        <a href="#destinos" class="btn">Ver Destinos</a>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Mais do que um site, o Caminhos do Mundo é uma comunidade de apaixonados por viagens. Somos movidos pelo desejo de explorar, compartilhar experiências e ajudar outros viajantes a desbravarem o mundo. Acreditamos que viajar nos une, amplia horizontes e nos faz ver a beleza que existe em cada canto do planeta. Seja bem-vindo ao nosso espaço – feito para sonhar, planejar e viver grandes aventuras.</p>
+    </section>
+
+    <section id="destinos" class="destinos">
+        <h2>Nossos Destinos</h2>
+        <div class="destino-lista">
+            <div class="destino-item">
+                <img src="img/d1de30295a68454c15362e26a5b8efea.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>A cidade do amor e da luz.</p>
+            </div>
+            <div class="destino-item">
+                <img src="img/01e8045e449e9d7d09e6280f4b160a44.jpg" alt="Tóquio">
+                <h3>Tóquio</h3>
+                <p>Uma mistura de tradição e modernidade.</p>
+            </div>
+            <div class="destino-item">
+                <img src="img/9f7f38ab09b8aee967e9c57c54b7b10e.jpg" alt="Rio de Janeiro">
+                <h3>Rio de Janeiro</h3>
+                <p>Paisagens deslumbrantes e cultura vibrante.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Fale Conosco</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Caminhos do Mundo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
